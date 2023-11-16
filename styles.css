@@ -1,0 +1,51 @@
+.mainheader {
+    color:mediumblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+h1 {
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color:blue
+}
+
+
+p {
+    color: red;
+}
+
+h1, h2, p {
+    text-align: center; 
+    color: red; 
+}
+
+#menu {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+
+}
+
+#menu li {
+    list-style: none;
+
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+.mainpara {
+    font-size: 30px;
+}
+
+.mainimg {
+    display: block;
+    margin: 0 auto;
+}

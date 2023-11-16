@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #333333;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.nav-item {
+    list-style: none;
+    align-self: center;
+    padding: 0 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+input[type="search"] {
+    background-color: #333333;
+    
+    border-radius: 30px;
+}
+
+.first-row {
+    background-image: url('images/iphone.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-color: black;
+    height: 700px;
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+
+}
+
+.first-row h2, .second-row h2 {
+    font-size: 4em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.first-row p, .second-row p{
+    font-size: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.first-row a, .second-row a{
+    font-size: 1.8em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color:#0e84fa;
+    text-decoration: none;
+}
+
+.first-row a:hover{
+    text-decoration: underline;
+}
+.buy{
+    margin-left: 20px;
+    
+}
+
+.second-row {
+    background-image: url('images/iphone-15.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-color: white;
+    height: 700px;
+    color: black;
+    text-align: center;
+    padding-top: 180px;
+}
