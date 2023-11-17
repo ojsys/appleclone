@@ -40,6 +40,8 @@ input[type="search"] {
     background-image: url('images/iphone.png');
     background-repeat: no-repeat;
     background-position: bottom center;
+    background-size: cover;
+    background-position-y:10vh ;
     background-color: black;
     height: 700px;
     color: white;
@@ -80,10 +82,16 @@ input[type="search"] {
 .second-row {
     background-image: url('images/iphone-15.png');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: bottom center;
+    background-position-y:10vh;
     background-color: white;
-    height: 700px;
+    height: 800px;
     color: black;
     text-align: center;
     padding-top: 180px;
+}
+
+.third-row{
+    display: flex;
 }
